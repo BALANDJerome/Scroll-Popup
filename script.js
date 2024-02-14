@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
     imgImprovise.style.opacity = "1";
     imgImprovise.style.transform = "translateX(0)";
   }
-  if (window.scrollY > 1190) {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
     popup.style.opacity = "1";
     popup.style.transform = "translateX(0)";
   }
